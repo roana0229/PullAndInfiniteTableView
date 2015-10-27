@@ -1,6 +1,8 @@
 # PullToRefresh and InfiniteScrolling TableView
 
-![DemoGif](demo.gif)
+This is easy to use PullToRefresh and InfiniteScrolling in TableView.
+
+![DemoGif](https://raw.githubusercontent.com/roana0229/PullAndInfiniteTableView/master/dmeo.gif)
 
 ## Installation
 
@@ -10,9 +12,9 @@ Use Carthage
 
 ## Usage
 
-1. Inheritance class change from UITableView to PullAndInfiniteTableView.
+1.Inheritance class change from UITableView to PullAndInfiniteTableView.
 
-2. Change property, Add handler
+2.Change property, Add handler
 ```
 tableView.showPullToRefresh = true
 tableView.addPullToRefreshHandler({ [weak self] in ~ })
@@ -20,7 +22,7 @@ tableView.showInfiniteScroll = true
 tableView.addInfiniteScrollHandler({ [weak self] in ~ })
 ```
 
-3. When loading is complete, refresh tableview
+3.When loading is complete, refresh tableview
 ```
 tableView.refresh(state: RefreshState)
 ```
@@ -133,4 +135,4 @@ class ViewController: UIViewController {
 
 ## License
 
-PullAndInfiniteTableView is released under the [MIT License](LICENSE.txt).
+PullAndInfiniteTableView is released under the [MIT License](LICENSE).
