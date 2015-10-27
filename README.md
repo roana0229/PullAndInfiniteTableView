@@ -1,5 +1,7 @@
 # PullToRefresh and InfiniteScrolling TableView
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)  
+
 This is easy to use PullToRefresh and InfiniteScrolling in TableView.
 
 ![DemoGif](https://raw.githubusercontent.com/roana0229/PullAndInfiniteTableView/master/dmeo.gif)
