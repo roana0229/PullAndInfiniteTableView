@@ -10,19 +10,18 @@
 		FB01A2091BDF46A100453F3F /* SimpleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01A2061BDF46A100453F3F /* SimpleTableViewCell.swift */; };
 		FB01A20A1BDF46A100453F3F /* SimpleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB01A2071BDF46A100453F3F /* SimpleTableViewCell.xib */; };
 		FB01A20C1BDF495900453F3F /* SimpleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01A20B1BDF495900453F3F /* SimpleTableView.swift */; };
-		FB01A21E1BDF570500453F3F /* PullAndInfiniteTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB01A21D1BDF570500453F3F /* PullAndInfiniteTableView.framework */; };
 		FB4A52521BDF4440001DABE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A52511BDF4440001DABE1 /* AppDelegate.swift */; };
 		FB4A52541BDF4440001DABE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A52531BDF4440001DABE1 /* ViewController.swift */; };
 		FB4A52571BDF4440001DABE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4A52551BDF4440001DABE1 /* Main.storyboard */; };
 		FB4A52591BDF4440001DABE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4A52581BDF4440001DABE1 /* Assets.xcassets */; };
 		FB4A525C1BDF4440001DABE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4A525A1BDF4440001DABE1 /* LaunchScreen.storyboard */; };
+		FBE9D3691BDF792100FFAE99 /* PullAndInfiniteTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC84EB31BDF778100E9D812 /* PullAndInfiniteTableView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB01A2061BDF46A100453F3F /* SimpleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewCell.swift; sourceTree = "<group>"; };
 		FB01A2071BDF46A100453F3F /* SimpleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableViewCell.xib; sourceTree = "<group>"; };
 		FB01A20B1BDF495900453F3F /* SimpleTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableView.swift; sourceTree = "<group>"; };
-		FB01A21D1BDF570500453F3F /* PullAndInfiniteTableView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PullAndInfiniteTableView.framework; path = Carthage/Build/iOS/PullAndInfiniteTableView.framework; sourceTree = "<group>"; };
 		FB4A524E1BDF4440001DABE1 /* PullAndInfiniteTableViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PullAndInfiniteTableViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4A52511BDF4440001DABE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB4A52531BDF4440001DABE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +29,7 @@
 		FB4A52581BDF4440001DABE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB4A525B1BDF4440001DABE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB4A525D1BDF4440001DABE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC84EB31BDF778100E9D812 /* PullAndInfiniteTableView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PullAndInfiniteTableView.framework; path = Carthage/Build/iOS/PullAndInfiniteTableView.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB01A21E1BDF570500453F3F /* PullAndInfiniteTableView.framework in Frameworks */,
+				FBE9D3691BDF792100FFAE99 /* PullAndInfiniteTableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +47,7 @@
 		FB4A52451BDF4440001DABE1 = {
 			isa = PBXGroup;
 			children = (
-				FB01A21D1BDF570500453F3F /* PullAndInfiniteTableView.framework */,
+				FBC84EB31BDF778100E9D812 /* PullAndInfiniteTableView.framework */,
 				FB4A52501BDF4440001DABE1 /* PullAndInfiniteTableViewSample */,
 				FB4A524F1BDF4440001DABE1 /* Products */,
 			);

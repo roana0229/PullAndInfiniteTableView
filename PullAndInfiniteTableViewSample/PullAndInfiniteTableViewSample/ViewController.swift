@@ -31,7 +31,6 @@ class ViewController: UIViewController {
     }
     
     func fetchData(state: RefreshState) {
-        NSLog("fetchData(\(state.hashValue))")
         let delay: Double = 0.8
         let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(delay * Double(NSEC_PER_SEC)))
         dispatch_after(delayTime, dispatch_get_main_queue()) {
