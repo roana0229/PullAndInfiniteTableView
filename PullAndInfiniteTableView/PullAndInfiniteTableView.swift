@@ -49,7 +49,7 @@ public class PullAndInfiniteTableView: UITableView {
     }
     
     func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return showInfiniteScroll ? footerHeight : 0
+        return showInfiniteScroll ? footerHeight : 0.1
     }
     
     private func showPullToRefreshView() {
@@ -127,7 +127,7 @@ public class PullAndInfiniteTableView: UITableView {
         case .INFINITE_SCROLL_REFRESH:
             infiniteScrollHandler?()
             break
-        case .INIT_REFRESH:
+        default:
             break
         }
     }
@@ -147,8 +147,8 @@ public class PullAndInfiniteTableView: UITableView {
             reloadData()
             break
         }
-        layoutFooterIndicatorTopConstraint()
         nowLoading = false
+        layoutFooterIndicatorTopConstraint()
     }
     
     private func layoutFooterIndicatorTopConstraint() {
