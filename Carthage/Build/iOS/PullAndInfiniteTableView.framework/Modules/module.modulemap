@@ -1,0 +1,10 @@
+framework module PullAndInfiniteTableView {
+  umbrella header "PullAndInfiniteTableView.h"
+
+  export *
+  module * { export * }
+}
+
+module PullAndInfiniteTableView.Swift {
+    header "PullAndInfiniteTableView-Swift.h"
+}
